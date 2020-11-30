@@ -1,0 +1,88 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+body{
+  height:300vh;
+  background-image: url( https://cdn.pixabay.com/photo/2017/06/04/11/09/wood-2370807_960_720.jpg);
+  background-size: cover;
+}
+
+.float-left{
+  float:left;
+}
+
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.container{
+  width:70%;
+  margin:auto;
+}
+
+
+/* header */
+
+header{
+  margin:2vh 0;
+}
+
+.jumbotron{
+  height:45vh;
+  border: 2vh solid white;
+  background-color: dodgerblue;
+}
+
+header nav{
+  height:10vh;
+  background-color: lightblue;
+}
+
+/* main */
+
+main{
+  background-color:green;
+}
+
+.aside-left{
+  width: calc(100% / 4 );
+  height: 30vh;
+  background-color: pink;
+}
+
+.core{
+  width:calc(100% / 2 - 5%);
+  height:25vh;
+  background-color: orange;
+  margin:0 5%;
+}
+
+.aside-right{
+  width:calc(100% / 4 - 5%);
+  height: 150vh;
+  background-color: slateblue
+}
+.widget{
+  height: 45vh;
+  margin-bottom:15%;
+  background-color: violet;
+}
+
+/* footer */
+
+.copyright{
+  height:2vh;
+  background-color: darkorange;
+}
+
+.social{
+  height:10vh;
+  background-color: powderblue;
+}
